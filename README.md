@@ -95,20 +95,7 @@ HotNews/
 ## 注意事项
 
 - 请确保后端服务运行在5556端口
-- 在前端目录下创建.env文件，填写启动端口
-
-```
-PORT=5555 
-```
-
 - 需要在Server目录下配置.env文件，包含COZE_TOKEN环境变量和两个id（这方面涉及到在Coze平台发布API）
-
-```
-COZE_TOKEN=[your token]
-WORKFLOW_ID=[your flow id]
-APP_ID=[your app id]
-```
-
 - 前端应用默认连接到localhost:5556的后端API
 
 ## 界面预览
